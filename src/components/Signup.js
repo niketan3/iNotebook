@@ -34,7 +34,7 @@ export default function Signup() {
     const name=details.name;
     const email=details.email;
     const password=details.password;
-    const url="http://localhost/auth/signup";
+    const url="/auth/signup";
         const response = await fetch(url, {
             method: "POST", 
             headers: {

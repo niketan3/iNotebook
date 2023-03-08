@@ -24,7 +24,7 @@ export default function Login() {
         console.log(details);
         const email=details.email;
         const password=details.password;
-        const url="http://localhost/auth/login";
+        const url="/auth/login";
         const response = await fetch(url, {
             method: "POST", 
             headers: {
